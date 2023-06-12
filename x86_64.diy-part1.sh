@@ -17,4 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-sed -i 's/ipad=${ipaddr:-"10.0.0.1"}/ipad=${ipaddr:-"10.1.1.1"}/g' package/base-files/files/bin/config_generate
+sed -i 's/ipad=${ipaddr:-"192.168.1.1"}/ipad=${ipaddr:-"10.1.1.1"}/g' package/base-files/files/bin/config_generate
